@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.responsive-container {
+    @apply px-6 mx-auto max-w-7xl lg:px-8;
+}
