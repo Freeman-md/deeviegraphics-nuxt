@@ -1,11 +1,19 @@
 <template>
-  <div class="bg-red-500 text-white p-2">
-    This is the index page
+  <div class="bg-black text-white p-2">
+    <Home />
+
+    <About />
+
+    <Services />
+
+    <Works />
+
+    <Contact />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'Index'
 }
 </script>
